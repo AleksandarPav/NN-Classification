@@ -8,13 +8,20 @@ Given historical data on loans given out with information on whether or not the 
 
 The "loan_status" column contains the label ("Charged Off" or "Fully Paid"). The original dataset contains:
 
-0   loan_amnt				The listed amount of the loan applied for by the borrower. If at some point in time, the credit department reduces the loan amount, then it will be reflected in this value.'\n'
-1	term					The number of payments on the loan. Values are in months and can be either 36 or 60.'\n'
-2	int_rate				Interest Rate on the loan'\n'
-3	installment				The monthly payment owed by the borrower if the loan originates.'\n'
-4	grade					LC assigned loan grade'\n'
-5	sub_grade				LC assigned loan subgrade'\n'
-6	emp_title				The job title supplied by the Borrower when applying for the loan.'\n'
+0   loan_amnt				The listed amount of the loan applied for by the borrower. If at some point in time, the credit department reduces the loan amount, then it will be reflected in this value.
+
+1	term					The number of payments on the loan. Values are in months and can be either 36 or 60.
+
+2	int_rate				Interest Rate on the loan
+
+3	installment				The monthly payment owed by the borrower if the loan originates.
+
+4	grade					LC assigned loan grade
+
+5	sub_grade				LC assigned loan subgrade
+
+6	emp_title				The job title supplied by the Borrower when applying for the loan.
+
 7	emp_length				Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years.'\n'
 8	home_ownership			The home ownership status provided by the borrower during registration or obtained from the credit report. Our values are: RENT, OWN, MORTGAGE, OTHER'\n'
 9	annual_inc				The self-reported annual income provided by the borrower during registration.'\n'
